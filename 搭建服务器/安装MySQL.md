@@ -120,6 +120,7 @@ service mysqld restart
 > 2. 支持`start/stop/status`三个参数 
 
 ##### 配置 *my.cnf*
+---
 ```
 vim my.cnf
 #添加以下两条语句并保存退出
