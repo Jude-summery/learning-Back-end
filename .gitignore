@@ -1,0 +1,15 @@
+/out
+/logs
+.idea/
+*.iml
+target/
+tmp/
+.command
+*.log
+*.lnk
+*.orig
+*.ini
+node_modules/
+.bowerrc
+/classes
+
