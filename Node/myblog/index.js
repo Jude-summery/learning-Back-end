@@ -27,7 +27,7 @@ app.use(session({
     },
     store: new MongoStore({// 将 session 存储到 mongodb
         // url: config.mongdb // mongodb 地址
-        url: 'mongodb://localhost/myblog'
+        url: 'mongodb://localhost:27017/myblog'
     })
 }))
 
