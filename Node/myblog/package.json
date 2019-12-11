@@ -14,6 +14,7 @@
     "connect-mongo": "^3.2.0",
     "express": "^4.17.1",
     "express-formidable": "git+https://github.com/utatti/express-formidable.git",
-    "express-session": "^1.17.0"
+    "express-session": "^1.17.0",
+    "lodash": "^4.17.15"
   }
 }
