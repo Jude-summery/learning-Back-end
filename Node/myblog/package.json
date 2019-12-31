@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover node_modules/mocha/bin/_mocha"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "start": "cross-env NODE_ENV=production pm2 start index.js --name 'myblog'"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "istanbul": "^0.4.5",
     "mocha": "^6.2.2",
     "supertest": "^4.0.2"
